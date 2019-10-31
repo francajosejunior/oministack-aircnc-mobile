@@ -17,7 +17,6 @@ const Login: FC = () => {
   const [email, setEmail] = useState("");
   const [techs, setTechs] = useState("");
   async function handleSubmit() {
-    debugger;
     console.log({ email, techs });
   }
   return (
